@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<!--to link external css to html file-->
+<link rel="stylesheet" href="css/style.css">
+<!--meta tags-->
+<meta charset="UTF-8">
+<meta name="author" content="website name e.g Jaybaba Technologies">
+<meta name="description" content="descripe the webpage e.g this is a basic html page">
+<meta name="keywords" content="keywords of webpage for SEO e.g html,css,php,web development">
+
+<!--favicon(this is for icon of webpage)-->
+<link rel="icon" href="images/hands.jpg">
+
+<title>my first website</title>
+</head>
+<body>
+<!--begin-->
+<p title="paragraph">this is a paragraph</p>
+<!--this is how to link local pages-->
+<a href="contact.html">Contact page </a>
+<br>
+<!--this is how to link an external website that opens on a different page because of the target="_blank"-->
+<a href= "https://www.goal.com" target="_blank">Sports news
+</a>
+<br>
+<!--this is how to link an external website that opens on same page because of not putting any target attribute or  target="_self"-->
+<a href= "https://www.goal.com">Goal news
+</a>
+
+<!--ordered list-->
+<ol>
+<li>Vegetables</li>
+<li>ice cream</li>
+</ol>
+
+<!--unordered list-->
+<ul>
+<li>Tv</li>
+<li>Iron</li>
+</ul>
+
+<!--Creating a table-->
+<table border="1">
+<thead>
+<tr>
+<th>S/N</th>
+<th>Name</th>
+<th>State</th>
+<th>Lga</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Benson</td>
+<td>Osun</td>
+<td>Ilesha East</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Samuel Joshua</td>
+<td>Akwa Ibom</td>
+<td>Nsit</td>
+</tr>
+
+</tbody>
+</table>
+
+<!--To add images with "src"";increase or reduce images with height and width-->
+<img src="images/hands.jpg" alt="image of a hand" height="200px" width="200px" class="hands">
+
+<br>
+<br>
+<!-- using image as links-->
+<a href="https://www.google.com"><img src="images/hands.jpg" alt="image of hand" height= "200px" width="200px" id="hands">
+</a>
+
+<br>
+<!--Html Entities-->
+&copy;
+<br>
+&reg;
+<br>
+&trade;
+<br>
+&times;
+<br>
+&#8358;
+
+<br>
+<!--How to download direct from  external webpage to computer device-->
+<a href="https://cdn.pixabay.com/photo/2020/06/29/10/55/pizza-5352320_1280.png" download="">Download pizza</a>
+<br>
+<!--How to download direct from  local webpage to computer device-->
+<a href="images/hands.jpg" download="">Download Hands</a>
+<br>
+<!--To create forms-->
+<form action="jay.html" method="post" enctype="multipart/form-data">
+<div>
+<label for="name">Name: </label>
+<input type= "text" name="name" id="name" placeholder="full name">
+</div>
+<div>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="Email">
+</div>
+<div>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</div>
+<div>
+<input type="checkbox" name="course">html
+<input type="checkbox" name="course">css
+<input type="checkbox" name="course">Javascript
+</div>
+<div>
+<label for="passport">Passport</label>
+<input type="file" name="passport">
+</div>
+<div>
+<label for="state">State of Origin</label>
+<select name="state" id="state">
+<option value="Osun">Osun State</option>
+<option value="Rivers">Rivers State</option>
+<option value="Delta">Delta State</option>
+</div>
+
+<div>
+<input type="color">
+<br>
+<input type="submit" value="submit form">
+<input type="button" value="submit">
+<button type="submit">Submit</button>
+</div>
+</form>
+
+<!--How to add an audio on html-->
+<audio height="200" video="300" controls>
+<source src="https://audiomack.com/sabrina_sheba/song/the-story-ill-tell" type="audio/mp3">
+your browser does not support the audio
+</audio>
+
+
+<!--How to add a Video on html-->
+<video height="200" width="300" controls>
+<source src="media/phonics.mp4" type="video/mp4">
+your browser does not support the video
+</video>
+</body>
+</html>
